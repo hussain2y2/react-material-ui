@@ -1,0 +1,60 @@
+@import 'variables';
+
+.App {
+  .Auth {
+    max-width: 380px;
+    margin: 100px auto;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    min-height: 100%;
+    background: #FFFFFF;
+    box-shadow: $box-shadow;
+    .Sign {
+      width: 100%;
+      padding: 25px;
+      .Header {
+        text-align: center;
+        margin: 0 auto 20px;
+        img {
+          width: 92px;
+          color: transparent;
+          object-fit: cover;
+          text-align: center;
+          text-indent: 10000px;
+        }
+        h3 {
+          margin-bottom: 0.35em;
+          font-size: 1.125em;
+          font-weight: 500;
+          line-height: 1.125;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+    .MuiAlert-root {
+      margin-bottom: .5em;
+    }
+    .MuiFormGroup-root {
+      margin-bottom: .5em;
+    }
+    .forgot-password {
+      margin-top: .6em;
+      padding-left: 2.7em;
+      text-decoration: none;
+    }
+    .mt-2 {
+      margin-top: 1em;
+    }
+    .go-back {
+      text-align: center;
+      .back {
+        text-decoration: none;
+      }
+    }
+  }
+}
